@@ -1,9 +1,10 @@
 body {
   font-family: "ff-tisa-web-pro";
   text-align: center;
+  -webkit-font-smoothing: antialiased;
 }
 .mainHeader {
-  padding: 30px 0 45px 0;
+  padding: 30px 0 35px 0;
   text-align: center;
 }
 .logo {
@@ -42,6 +43,7 @@ body {
   box-sizing: border-box;
   padding-top: 66px;
   color: #fff;
+  margin-bottom: 35px;
 }
 .video h3 {
   font-size: 36px;
@@ -52,4 +54,67 @@ body {
 .video h4 {
   font-size: 32px;
   font-weight: normal;
+}
+.alert {
+  background: #e03336;
+  color: #fefefe;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 941px;
+  height: 101px;
+  display: inline-block;
+  font-style: italic;
+  font-size: 35px;
+  font-weight: normal;
+  text-align: left;
+  padding: 30px 0 0 32px;
+  position: relative;
+}
+.alert strong {
+  font-weight: 700;
+}
+.alert button {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+}
+button {
+  box-sizing: border-box;
+  height: 70px;
+  background: #bd292c;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  padding: 0 28px;
+  box-shadow: 0 3px 0 #9f0012;
+  font-family: "proxima-nova";
+  font-size: 24px;
+  font-weight: 400;
+  text-shadow: 0 2px #9f0012;
+}
+#content {
+  padding: 45px 0;
+  background: url("../img/tree_background.png");
+}
+#content h1 {
+  color: #5a3c26;
+  font-size: 44px;
+  margin: 28px 0 38px;
+}
+#content p {
+  width: 768px;
+  font-size: 18px;
+  line-height: 29px;
+  position: relative;
+  margin: 0 auto 28px;
+}
+.break {
+  width: 66px;
+  height: 36px;
+  background: url("../img/break.svg");
+  position: relative;
+  margin: 0 auto;
+}
+.break.end {
+  margin: 44px auto;
 }
